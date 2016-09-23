@@ -1,0 +1,5 @@
+Dependencies for Project 'FNOS', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532CD2C2)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Program Files (x86)\ARM\RV31\INC"-I "C:\Program Files (x86)\ARM\CMSIS\Include"-I "C:\Program Files (x86)\ARM\Inc\Philips"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\source_RM_4_Tasks - Copy.c)(0x56FE43E5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Program Files (x86)\ARM\RV31\INC"-I "C:\Program Files (x86)\ARM\CMSIS\Include"-I "C:\Program Files (x86)\ARM\Inc\Philips"-o ".\source_rm_4_tasks - copy.o" --omf_browse ".\source_rm_4_tasks - copy.crf" --depend ".\source_rm_4_tasks - copy.d")
+I (C:\Program Files (x86)\ARM\Inc\Philips\lpc214x.h)(0x532CD2D8)
+I (C:\Program Files (x86)\ARM\ARMCC\include\math.h)(0x51C8A654)

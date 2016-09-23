@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\source_rm_4_tasks - copy.o"
+--strict --scatter ".\FNOS.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\FNOS.map" -o .\FNOS.axf
